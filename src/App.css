@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins sans-serif;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container{
+  background: black;
+  min-width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 100%;
+}
+.left{
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  min-width: 25%;
+}
+.right{
+  display: flex;
+  min-width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.product{
+  display: flex;
+  align-content: center;
+  min-width: 120px;
+  min-height: 38px;
+  background: #343434;
+  border-radius: 8px;
+}
+.product-item1{
+  min-width: 16px;
+  min-height: 16px;
+  margin: 10px auto auto 10px;
+}
+.option-product{
+  background: black;
+  color: #FFFFFF;
+}
+.product-item2{
+  margin: 10px;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.logo{
+  min-width: 88px;
+ min-height: 52px;
+}
+.nav-text{
+padding: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.register{
+min-width: 126px;
+min-height: 38px;
+border: 1px solid #FFFFFF;
+background: none;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+border-radius: 42px;
+}
+.register:hover{
+  background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
+  border: none;
+}
+.launch-App{
+min-width: 156px;
+min-height: 38px;
+border: none;
+background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+border-radius: 38px;
+}
+.horizontal{
+  min-width: 100%;
+  min-height: 1px;
+  border: 1px solid #666666;
+}
+.main-text{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  margin-top: 146px;
+  margin-bottom: 134px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.community{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 16px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.economy{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.btn{
+  display: flex;
+  margin-top: 50px;
+}
+.lunch{
+  min-width: 179px;
+min-height: 50px;
+background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
+border-radius: 6px;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.more{
+  min-width: 179px;
+min-height: 48px;
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+border-radius: 6px;
+background: none;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+margin-left: 10px;
+}
+.more:hover{
+  background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
+  color: #FFFFFF;
+  opacity: 1;
+  border: none;
+}
+.details{
+  display: flex;
+  min-width: 100%;
+  justify-content: space-evenly;
+  margin: 69px auto 69px auto;
+}
+.price{
+  font-weight: 400;
+font-size: 50px;
+line-height: 120%;
+color: #FFFFFF;
+}
+.detail-text{
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
 }
