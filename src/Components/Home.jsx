@@ -11,8 +11,8 @@ export default function Home() {
           
           <div className="product">
             <img className='product-item1' src="/images/menu.png" alt="Menu" />
-           <select className='product-item2'>
-                <option className='option-product'>Option 1</option>
+           <select className='product-item2'> 
+                <option className='option-product'>Products</option>
                 <option className='option-product'>Option 2</option>
                 <option className='option-product'>Option 3</option>
             </select>
